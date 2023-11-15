@@ -1,6 +1,6 @@
 #include "hayvan.h"
 
-void hayvan::hayvanozellikleri() {
+void Hayvan::Print() {
 
-    std::cout<<hayvan::adi<<" "<<hayvan::cinsi<<" "<<hayvan::turu<<" "<<hayvan::yas<<std::endl;
+    std::cout<<adi<<" "<<cinsi<<" "<<turu<<" "<<yas<<"\n";
 }
